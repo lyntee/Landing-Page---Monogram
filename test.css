@@ -69,3 +69,168 @@ nav span{
 }
 
 /* Main Background */
+section {
+  height: 50vh;
+}
+
+.empty-div {
+  height: 10vh;
+}
+
+.capitalise {
+  text-transform: uppercase;
+}
+
+.main-bg {
+  text-align: center;
+  height: 50vh;
+  background-color: rgba(255,255,255,1);
+}
+
+.main-bg-icons {
+  font-size: 2.5rem;
+}
+
+.main-bg h1 {
+  color: #ff501c;
+}
+
+.main-message {
+  height: 55%;
+  background-color: #5a7f71;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-message p {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.switch {
+  background: url("https://monogramcc.com/static/2893592fe2fa8c46e36447df99a48453/b5e5f/workflow-header-modules.webp");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+}
+
+.main-bg p {
+  color: white;
+}
+
+.dotted-border {
+  border: 5px dotted white;
+  padding: 10px;
+}
+
+/* Hero1 - Products */
+.word-arranger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adjust {
+  margin-top: 20px;
+}
+
+.adjust2 {
+  margin-left: 10px;
+}
+
+.price-arranger {
+  display: flex;
+}
+
+.discounted-price {
+  color: #ff501c;
+}
+
+.original-price {
+  text-decoration: line-through;
+}
+
+.card-image {
+  position: relative;
+}
+
+.availability {
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.instock {
+  background-color: #1a2456;
+  color: white;
+}
+
+.preorder {
+  background-color: #ff8b68;
+}
+
+.shopnow {
+  border-radius: 10px;
+  position: absolute;
+}
+
+.hero1 {
+  height: 50vh;
+  margin: 30px;
+}
+.card {
+  height: 50vh;
+}
+
+.card1-img {
+  background: url("https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uc29sZSUyMGJveCUyMHBhY2thZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+.card1-img2 {
+  background: url("https://images.unsplash.com/photo-1500702790369-fe461685b3c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29uc29sZSUyMG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+.card2-img {
+  background: url("https://images.unsplash.com/photo-1632803227975-b6a5688c9c46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGNvbnNvbGUlMjBib3glMjBwYWNrYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+.card2-img2 {
+  background: url("https://images.unsplash.com/photo-1457689146074-bd667e343a9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29uc29sZSUyMG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+.card3-img {
+  background: url("https://images.unsplash.com/photo-1526509706191-c268f28e9ecb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+.card3-img2 {
+  background: url("https://images.unsplash.com/photo-1518972559570-7cc1309f3229?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc29sZSUyMG11c2ljfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
