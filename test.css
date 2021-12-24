@@ -41,7 +41,8 @@ nav span{
 .mobile-view {
   display: block;
   background-color: #1a2456;
-  width: 50vw;
+  width: 70vw;
+  height: 100vh;
   padding: 30px;
   position: absolute;
   top: 0;
@@ -82,12 +83,19 @@ nav span{
 
 .main-bg {
   text-align: center;
-  height: 50vh;
-  background-color: rgba(255,255,255,1);
+  height: 80vh;
+  background: url("https://images.unsplash.com/photo-1535406208535-1429839cfd13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBjb25zb2xlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
 }
 
 .main-bg-icons {
   font-size: 2.5rem;
+  color: white;
+}
+
+.main-bg-icons:hover {
+  font-size: 3rem;
 }
 
 .main-bg h1 {
@@ -122,8 +130,8 @@ nav span{
   color: white;
 }
 
-.dotted-border {
-  border: 5px dotted white;
+.dashed-border {
+  border: 3px dashed white;
   padding: 10px;
 }
 
@@ -179,11 +187,11 @@ nav span{
 }
 
 .hero1 {
-  height: 150vh;
-  margin: 30px;
+  height: 180vh;
+  margin: 20px;
 }
 .card {
-  height: 50vh;
+  height: 60vh;
 }
 
 .card1-img {
@@ -258,7 +266,7 @@ nav span{
 
 /* Hero3 - customisation */
 .hero3 {
-  height: 300vh;
+  height: 360vh;
   margin: 30px;
 }
 
@@ -409,4 +417,116 @@ footer ul li a:hover,
 
 .copyright small {
   color: #efc2b3;
+}
+/* Responsive Design */
+@media(min-width: 768px) {
+  .main-bg {
+    height: 60vh;
+  }
+
+  .main-message {
+    flex-direction: row;
+  }
+
+  .switch {
+    height: 60%;
+    width: 40%;
+  }
+
+  .hero1 {
+    height: 150vh;
+  }
+
+  .card {
+    height: 50vh;
+    margin: 0 100px 0 100px;
+  }
+
+  .hero3 {
+    height: 300vh;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .newsletter {
+    grid-column: span 2;
+  }
+
+  .monogram {
+    grid-row-start: 1;
+  }
+}
+
+@media(min-width: 1024px) {
+  .fa-bars,
+  nav .logo,
+  .fa-times,
+  .extra {
+    display: none;
+  }
+
+  nav,
+  .nav-side {
+    display: flex;
+  }
+
+  .not-shown {
+    display: block;
+  }
+
+  .switch {
+    height: 70%;
+    width: 40%;
+  }
+  
+  .hero1 {
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    align-items: center;
+  }
+
+  .card {
+    margin: 0 auto;
+    height: 20vh;
+  }
+
+  .hero3 {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width: 1280px) {
+  .switch {
+    height: 70%;
+    width: 10%;
+  }
+
+  .main-message p{
+    margin: 0 50px 0 50px;
+  }
+
+  .hero1 {
+    height: 90vh;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+
+  .hero3 {
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .newsletter {
+    grid-column: 5/7;
+    grid-row-start: 1;
+  }
 }
